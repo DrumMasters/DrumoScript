@@ -1,0 +1,20 @@
+list quotes "The only way to do great work is to love what you do." - "In the end, it's not the years in your life that count. It's the life in your years." - "The future belongs to those who believe in the beauty of their dreams." - "The only limit to our realization of tomorrow will be our doubts of today." - "Success is not final, failure is not fatal: It is the courage to continue that counts."
+list quotesBy Steve Jobs - Abraham Lincoln - Eleanor Roosevelt - Franklin D. Roosevelt - Winston Churchill
+
+int random rand 1 5
+if random = 1
+print |0| quotes
+print |0| quotesBy
+elif random = 2
+print |1| quotes
+print |1| quotesBy
+elif random = 3
+print |2| quotes
+print |2| quotesBy
+elif random = 4
+print |3| quotes
+print |3| quotesBy
+elif random = 5
+print |4| quotes
+print |4| quotesBy
+end

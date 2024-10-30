@@ -1,0 +1,16 @@
+Printing is a simple way to write text to the console.
+There are a few ways to print.
+
+For example, if you want to print a string, you would use the 'print' keyword, followed by a string:
+print "string"
+
+To print a variable, you would use the print keyword followed by the variable name surrounded in dashes:
+print -variable-
+
+To print the value of a MACRO, you would use the print keyword followed by the macro name surrounded in "~":
+print ~macro~
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

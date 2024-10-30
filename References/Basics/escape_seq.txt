@@ -1,0 +1,11 @@
+Escape sequences are mostly involved with print statements and they are quite useful.
+The only functional escape sequence is -nl- (newline), and it only works in print statements.
+
+To print a newline, you'd use the print keyword followed by the newline sequence in a string:
+
+print "-nl-"
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

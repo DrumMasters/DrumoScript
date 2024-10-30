@@ -1,0 +1,42 @@
+print "CUBE:-nl-"
+
+repeat 5
+print "######"
+endr
+
+print "CUBE (gradient):-nl-"
+
+int i 0
+repeat 5
+++ i
+if i = 1
+print "####//*" << i = 1 >>
+elif i = 2
+print "###//**" << i = 2 >>
+elif i = 3
+print "##//***" << i = 3 >>
+elif i = 4
+print "#//****" << i = 4 >>
+elif i = 5
+print "//*****-nl-" << i = 5 >>
+end
+endr
+
+print "-nl-CUBE (gradient + 'DS'):-nl-"
+
+set i 0
+
+repeat 5
+++ i
+if i = 1
+print "####//*" << i = 1 >>
+elif i = 2
+print "###//**" << i = 2 >>
+elif i = 3
+print "##//***" << i = 3 >>
+elif i = 4
+print "#//****" << i = 4 >>
+elif i = 5
+print "//***DS" << i = 5 >>
+end
+endr

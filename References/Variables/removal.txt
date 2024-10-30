@@ -1,0 +1,10 @@
+String removal is a string-variable-exclusive way of removing text from a string variable.
+
+To remove a string from another string, you'd use the variable name followed by the '-=' keyword and the text you want to remove:
+
+variable -= text
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

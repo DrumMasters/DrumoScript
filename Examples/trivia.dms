@@ -1,0 +1,87 @@
+int score 0
+str answer a
+
+proc question1
+  print "1) 1 + 1 = ?"
+  print "a) 2"
+  print "b) 4"
+  print "c) 6"
+  print "d) 8"
+  print "(ANSWER IN LOWERCASE LETTERS)"
+  set answer stdin >
+  if answer = a
+    print "Correct!"
+    ++ score
+  else
+    print "Incorrect!"
+  end
+endp
+
+proc question2
+  print "-nl- "
+  print "2) Who founded Microsoft?"
+  print "a) Bill Gates"
+  print "b) Steve Jobs"
+  print "c) Linus Torvalds"
+  print "d) Elon Musk"
+  print "(ANSWER IN LOWERCASE LETTERS)"
+  set answer stdin >
+  if answer = a
+    print "Correct!"
+    ++ score
+  else
+    print "Incorrect!"
+  end
+endp
+
+proc question3
+  print "-nl- "
+  print "3) Which programming language was DrumoScript's earliest predecessor?"
+  print "a) DrumLang"
+  print "b) DrumLang TOKENS UPDATE"
+  print "c) DrumLang TOKENS UPDATE V2"
+  print "d) DrumLang BETA"
+  set answer stdin >
+  if answer = d
+    print "Correct!"
+    ++ score
+  else
+    print "Incorrect!"
+  end
+endp
+
+proc question4
+  print "-nl- "
+  print "4) Why was DrumoScript made?"
+  print "a) Personal project"
+  print "b) Personal exploration"
+  print "c) Longing to think out of the box"
+  print "d) To be unique"
+  set answer stdin >
+  if answer = c
+    print "Correct!"
+    ++ score
+  else
+    print "Incorrect!"
+  end
+endp
+
+exec question1
+exec question2
+exec question3
+exec question4
+
+print "Congrats! You won:"
+print -score-
+print "out of 4."
+if score = 0
+  print "You did quite bad, consider trying again?"
+elif score = 1
+  print "You did sorta well, consider trying again?"
+elif score = 2
+  print "You did nice, maybe consider trying again?"
+elif score = 3
+  print "You did quite well!"
+elif score = 4
+  print "You did excellent! Good job!"
+end

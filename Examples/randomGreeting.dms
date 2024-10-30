@@ -1,0 +1,18 @@
+proc greet
+int i rand 1 2
+if i = 1
+repeat 10
+++ i
+print "Hello, World!"
+print -i-
+endr
+else
+repeat 10
+++ i
+print "Greetings!"
+print -i-
+endr
+end
+endp
+
+exec greet

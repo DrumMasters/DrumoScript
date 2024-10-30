@@ -1,0 +1,10 @@
+Randomness is an integer-variable-exclusive way to generate a random number.
+
+To make an integer variable with a random value, you'd declare the variable and use the 'rand' keyword followed by 2 numbers (the minimum and maximum value):
+
+int variable rand (number 1) (number 2)
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

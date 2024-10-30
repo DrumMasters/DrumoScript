@@ -1,0 +1,15 @@
+HTTP requests (GET requests specifically) are a string-variable-exclusive way to get items from an external website.
+
+To get the TEXT (HTML code) of a site, you'd declare a variable and use the "httpget" keyword followed by "text" and the site name:
+str variable httpget text https://site.com
+
+To get the HEADERS (metadata) of a site, you'd declare a variable and use the "httpget" keyword followed by "headers" and the site name:
+str variable httpget headers https://site.com
+
+To get the STATUS CODE of a site, you'd declare a variable and use the "httpget" keyword followed by "statusCode" and the site name:
+str variable httpget statusCode https://site.com
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

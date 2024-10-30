@@ -1,0 +1,9 @@
+proc HelloWorld
+print "Hello, World! coming from HelloWorld"
+print "This is just an example of inclusion, you will be seeing more of this..."
+endp
+
+proc HelloWorld2
+print "Hello, World! coming from HelloWorld2"
+print "This is another example of inclusion just for testing."
+endp

@@ -1,0 +1,17 @@
+int num1 0
+str operator -
+int num2 0
+
+proc calculate
+set num1 stdin Enter a number:
+set operator stdin Enter an operator [+|-]:
+set num2 stdin Enter another number:
+if operator = +
+++ num1 num2
+else
+-- num1 num2
+end
+print -num1-
+endp
+
+exec calculate

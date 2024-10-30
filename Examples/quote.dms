@@ -1,0 +1,19 @@
+str quote1 "The only way to do great work is to love what you do." - Steve Jobs
+str quote2 "In the end, it's not the years in your life that count. It's the life in your years." - Abraham Lincoln
+str quote3 "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+str quote4 "The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+str quote5 "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
+
+int random rand 1 5
+if random = 1
+print -quote1-
+elif random = 2
+print -quote2-
+elif random = 3
+print -quote3-
+elif random = 4
+print -quote4-
+elif random = 5
+print -quote5-
+end
+print -random-

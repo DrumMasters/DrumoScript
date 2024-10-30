@@ -1,0 +1,9 @@
+Decrementation is an integer-variable-exclusive feature, allowing you to change the value of an integer variable by 1.
+
+To decrement a variable, you'd use the '--' keyword followed by the variable's name (and optionally how much you want to decrement it by):
+-- variable (optionalValue)
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

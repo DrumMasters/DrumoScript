@@ -1,0 +1,45 @@
+{
+  "debug": false,
+  "formatter": false,
+  "compiler": false,
+  "language": "DrumoScript",
+  "version": "1.0",
+  "author": "DrumMasters",
+  "description": "Config file for DrumoScript.",
+  "entrypoint": "code.dms",
+  "shell_name": "dms_shell",
+  "shell": 0,
+  "dataTypes": {
+    "primitive": ["str", "int"],
+    "composite": ["list", "dict"]
+  },
+  "basics": {
+    "print": "print",
+    "process": "process",
+    "append": "append",
+    "setvar": "set",
+    "delay": "wait"
+  },
+  "advanced": {
+    "task": "task"
+  },
+  "keywords": ["if", "elif", "else", "end", "proc", "endp", "exec", "endr"],
+  "escape_sequences": ["-nl-", "-tb-", "-vtb-", "-bsp-"],
+  "varDelimiter": "-",
+  "listDelim": "|",
+  "dictDelim": "%",
+  "macroDelimiter": "~",
+  "comment": ["<<", ">>"],
+  "inputKeyword": "stdin",
+  "createFileKeywords": ["create", "write", "reset", "mkdir", "empty", "delete", "rmdir", "read"],
+  "httpKeywords": {"get": "httpget", "post": "httppost"},
+  "increment": "++",
+  "decrement": "--",
+  "concat": "+=",
+  "remove": "-=",
+  "import": "include",
+  "macro": "define",
+  "random": "rand",
+  "rep": "repeat",
+  "cls": "cls"
+}

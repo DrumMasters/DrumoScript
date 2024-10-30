@@ -1,0 +1,9 @@
+Input is a way of getting user input from the user.
+
+To get input from the user, you'd use the "stdin" keyword followed by the text you want to input:
+stdin text
+
+And that's mostly all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

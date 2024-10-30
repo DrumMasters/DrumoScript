@@ -1,0 +1,10 @@
+String concatenation is a string-variable-exclusive way of adding text to a string variable.
+
+To concatenate a string to another string, you'd use the variable name followed by the '+=' keyword and the text you want to concatenate:
+
+variable += text
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

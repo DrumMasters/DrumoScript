@@ -1,0 +1,9 @@
+Waiting is a way of pausing your program for a certain amount of time.
+Or, in other words, waiting is the art of staying patient for a while.
+
+To wait, you'd use the "wait" keyword followed by a number or a variable:
+
+wait [amount]
+
+And that's all there is to it!
+I hope this helped. :)

@@ -1,0 +1,9 @@
+Lists are a way of storing multiple values in a single variable.
+
+To declare a list, you'd use the "list" keyword followed by the list name and its values (separated by dashes):
+list listname value - value
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!

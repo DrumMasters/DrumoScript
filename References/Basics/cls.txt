@@ -1,0 +1,9 @@
+Clearing the screen is quite an easy task.
+
+To clear the screen you'd use the cls keyword:
+cls
+
+And that's all there is to it!
+I hope this helped.
+
+If you need any more help, just ask in the chat!
